@@ -1,0 +1,141 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+body{
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    background: #deecee;
+    padding: 70px 9%;
+}
+.container{
+    position: relative;
+    height: 560px;
+    border-radius: 30px;
+    background: #deecee;
+   /* border: 1px solid #000;*/
+    box-shadow: 10px 10px 15px #cbced1,
+                -12px 12px 20px #fff ;
+}
+.navbar{
+    position: absolute;
+    top: 25px;
+    right: 0;
+}
+.navbar ul li{
+    float: left;
+    list-style: none;
+    margin-left: 30px;
+    color: #555;
+    cursor: pointer;
+}
+.user{
+    margin: -7px;
+    background: #deecee;
+    font-size: 12px;
+    padding: 8px;
+    border: 50%;
+    box-shadow: 5px 5px 5px rgba(0, 0, 0, 0.3)
+                 -3px -3px 5px #fff;
+}
+.img{
+    position: absolute;
+    top: 100px;
+    width: 100%;
+    text-align: center;
+    filter: drop-shadow(1px 1px 7px #777);
+}
+.img img{
+    width: 350px;
+}
+.input{
+    position: absolute;
+    top: 260px;
+    width: 100%;
+    text-align: center;
+}
+.input input{
+    width: 70%;
+    padding: 18px 60px;
+    font-size: 20px;
+    border: none;
+    outline: none;
+    background: #deecee;
+    border-radius: 30px;
+    box-shadow: 8px 10px 5px rgba(0, 0, 0, 0.3),
+                 -10px -10px 20px #fff;
+}
+.g{
+    position: absolute;
+    top: 275px;
+    left: 135px;
+    margin-left: 50px;
+}
+.g img{
+    width: 20px;
+    text-align: left;
+}
+
+.icon{
+    position: absolute;
+    top: 280px;
+    right: 145px;
+    color: #444;
+    font-size: 20px;
+    margin-right: 50px;
+}
+.btn{
+    position: absolute;
+    top: 380px;
+    width: 100%;
+    text-align: center;
+}
+.btn .left,
+.btn .right{
+    background: #deecee;
+    border: none;
+    outline: none;
+    padding: 15px 24px;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: 600;
+    color: #666;
+    border-radius: 15px;
+    box-shadow: 5px 8px 5px rgba(0, 0, 0, 0.3);
+}
+/*.plus{
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 80px;
+    border-radius: 100% ;
+    background: gray;
+    width: 0.1px;
+    transform: translate(-10%, 10%);
+}*/
+.plus{
+    position: absolute;
+    top: 400px;
+    width: 100%;
+    text-align: center;
+    padding: 50px;
+    /* cursor: pointer; */
+}
+.text-cust{
+    position: absolute;
+    top: 500px;
+    /*width: 100%;*/
+    cursor: pointer;
+    text-align: end;
+    background: #777;
+    padding: 10px;
+    border-radius: 10px;
+}
+
+/* .insider  .fa-microphone{
+padding-left: 100%;
+} */
